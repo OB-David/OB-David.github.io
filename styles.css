@@ -105,17 +105,14 @@ h3 { margin-bottom: 5px; color: #17212b; font-size: 17px; font-weight: 650; line
 }
 .entry:last-child { margin-bottom: 0; }
 .entry-main > p:last-child { color: #46525c; font-size: 14px; }
-.entry-main.has-image { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 20px; }
+.entry-main.has-image { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 24px; }
 .entry-image-link {
   display: block;
   align-self: start;
-  width: 180px;
-  height: 130px;
-  overflow: hidden;
-  border: 1px solid #cfd6dc;
-  background: var(--soft);
+  width: 100%;
+  max-width: 260px;
 }
-.entry-image { display: block; width: 180px; height: 130px; object-fit: contain; }
+.entry-image { display: block; width: 100%; height: auto; }
 .institution { color: var(--muted); font-size: 14px; }
 .entry-date { margin: 2px 0 0; text-align: right; white-space: nowrap; }
 #skills p { margin-bottom: 5px; }
