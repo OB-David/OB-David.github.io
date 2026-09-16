@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Junming Ren — undergraduate researcher in data science, visual analytics, graph algorithms, and blockchain.">
+  <meta name="description" content="Junming Ren — Data Science undergraduate at Fudan University, with interests in visual analytics, graph algorithms, blockchain, and model interpretability.">
   <meta name="theme-color" content="#ffffff">
   <title>Junming Ren</title>
   <link rel="stylesheet" href="styles.css">
@@ -12,16 +12,17 @@
   <main id="top">
     <section class="intro" aria-labelledby="intro-title">
       <h1 id="intro-title">Junming Ren</h1>
-      <p class="position">Undergraduate Student in Data Science<br>Fudan University</p>
+      <p class="position">School of Data Science<br>Fudan University</p>
 
       <p class="bio">
         I am a final-year undergraduate at the <a href="https://sds.fudan.edu.cn/" target="_blank" rel="noreferrer">School of Data Science, Fudan University</a>.
-        My research interests include <strong>visual analytics, graph algorithms, blockchain systems, and computational finance</strong>.
-        I am particularly interested in building methods and interactive systems that help people understand complex computational processes.
+        My interests span <strong>visual analytics, graph algorithms, blockchain systems, computational finance, and model interpretability</strong>.
+        My work focuses on analyzing computational processes and developing methods for interpreting and interacting with them.
       </p>
 
       <p class="bio">
-        I am currently a member of the FDU-VIS Lab. In 2025, I studied at the School of Informatics, University of Edinburgh as an exchange student.
+        I conducted research on Ethereum transaction analysis at the FDU-VIS Lab and worked as a quantitative research intern on convertible-bond modeling.
+        From September to December 2025, I was an exchange student at the School of Informatics, University of Edinburgh.
       </p>
 
       <div class="contact-links" aria-label="Contact links">
@@ -36,7 +37,7 @@
       <div class="entry">
         <div class="entry-main">
           <h3>Fudan University</h3>
-          <p class="institution">B.Sc. in Data Science and Big Data Technology</p>
+          <p class="institution">School of Data Science · B.Sc. in Data Science and Big Data Technology</p>
           <p>GPA: 3.62/4.0 · Third Prize Scholarship of Fudan University · Honorable Mention, COMAP 2026</p>
         </div>
         <p class="entry-date">Expected Jun. 2027</p>
@@ -52,7 +53,7 @@
     </section>
 
     <section id="research" aria-labelledby="research-title">
-      <h2 id="research-title">Research</h2>
+      <h2 id="research-title">Academic Research</h2>
 
       <article class="project featured-project">
         <a class="project-image-link" href="pic/traceweaver-system.png" target="_blank" rel="noreferrer" aria-label="Open the TraceWeaver system overview">
@@ -61,11 +62,13 @@
         <div class="project-content">
           <h3>Ethereum Arbitrage Transaction Detection</h3>
           <p class="project-meta">First Author and Lead Researcher · FDU-VIS Lab · Feb. 2025–Sep. 2026</p>
-          <p class="venue">Submitted to the IEEE PacificVis 2027 TVCG Track</p>
+          <p class="venue">Submitted to the IEEE PacificVis 2027 TVCG Track · Funded by FDUROP</p>
           <p>
-            We developed <strong>TraceWeaver</strong>, an interactive visual analytics system that links token-flow graphs,
-            call trees, and control-flow graphs. It enables analysts to trace arbitrage fund flows to specific contract
-            calls and EVM opcodes without relying on source code, ABIs, or event logs.
+            I reconstructed and simplified dynamic control-flow graphs from EVM execution traces while preserving
+            cross-contract calls, asset-state updates, and exceptional terminations. I also recovered ERC-20 and ETH
+            transfers without relying on source code, ABIs, or event logs. Building on these methods, I developed
+            <strong>TraceWeaver</strong>, an interactive visual analytics system linking token-flow graphs, call trees,
+            and control-flow graphs to trace arbitrage fund flows to individual contract calls and opcodes.
           </p>
           <p class="project-links">
             <a href="https://github.com/OB-David/evm-transaction-analyzer" target="_blank" rel="noreferrer">Code</a>
@@ -81,8 +84,8 @@
           <h3>Minimizing Redundant Search Cost for Continuous Subgraph Matching</h3>
           <p class="project-meta">Research Project · Feb. 2026–May 2026</p>
           <p>
-            I implemented query-graph preprocessing to identify reusable substructures during continuous matching,
-            visualized the algorithmic workflow and experimental results, and contributed to manuscript preparation.
+            I implemented query-graph preprocessing to identify three types of reusable substructures in the search
+            process. I also visualized the algorithmic workflow and experimental results and contributed to manuscript writing.
           </p>
         </div>
       </article>
@@ -93,12 +96,23 @@
 
       <div class="project-grid">
         <article class="small-project">
+          <a class="project-image-link compact" href="pic/sae_gate.png" target="_blank" rel="noreferrer" aria-label="Open the SAE-Gate architecture diagram">
+            <img class="project-image" src="pic/sae_gate.png" alt="SAE-Gate architecture for intervening on PTSD-related latent features in a transformer layer">
+          </a>
+          <div>
+            <h3>SAE-Gate: Targeted Fine-Tuning of PTSD-Related Representations in LLMs</h3>
+            <p>Using Qwen3-8B-Base and an open-source sparse autoencoder (SAE), I investigate PTSD-related representations in the base model and explore targeted interventions and fine-tuning through SAE features.</p>
+            <p class="project-links"><a href="https://github.com/OB-David/SAE-Gate" target="_blank" rel="noreferrer">Code</a></p>
+          </div>
+        </article>
+
+        <article class="small-project">
           <a class="project-image-link compact" href="pic/erc8004-ecosystem-v2.jpg" target="_blank" rel="noreferrer" aria-label="Open the ERC-8004 visualization">
             <img class="project-image" src="pic/erc8004-ecosystem-v2.jpg" alt="ERC-8004 ecosystem network visualization">
           </a>
           <div>
             <h3>ERC-8004 Ecosystem Visualization</h3>
-            <p>Analysis and visualization of whether ERC-8004 forms a functioning agent-to-agent trust network.</p>
+            <p>Analyzed and visualized the early ERC-8004 ecosystem to examine whether it forms an agent-to-agent trust network, and shared the findings for discussion on Ethereum Research.</p>
             <p class="project-links"><a href="https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322" target="_blank" rel="noreferrer">Community Discussion</a></p>
           </div>
         </article>
@@ -109,7 +123,7 @@
           </a>
           <div>
             <h3>NFT Music: Wikipedia Article</h3>
-            <p>Contributed to the public documentation of NFT music, its history, applications, and criticism.</p>
+            <p>Contributed to the Wikipedia article on NFT music.</p>
             <p class="project-links"><a href="https://en.wikipedia.org/wiki/NFT_music" target="_blank" rel="noreferrer">Article</a></p>
           </div>
         </article>
@@ -120,7 +134,7 @@
           </a>
           <div>
             <h3>Vickey NFT Auction Contract</h3>
-            <p>A Solidity auction contract deployed and tested on the Ethereum Sepolia network.</p>
+            <p>Implemented and deployed a Solidity NFT auction contract on the Ethereum Sepolia testnet.</p>
             <p class="project-links"><a href="https://sepolia.etherscan.io/address/0xac0f3f908c1115bdba543c2e22c8305a55621c3a" target="_blank" rel="noreferrer">Contract</a></p>
           </div>
         </article>
@@ -130,8 +144,8 @@
             <img class="project-image" src="pic/threebody-zhaoge-v2.png" alt="ThreeBody-ZHAOGE multi-agent dialogue game">
           </a>
           <div>
-            <h3>ThreeBody-ZHAOGE</h3>
-            <p>A multi-agent dialogue game inspired by the Three-Body universe.</p>
+            <h3>ThreeBody-ZHAOGE: Multi-Agent Dialogue Game</h3>
+            <p>Developed a multi-agent dialogue game inspired by The Three-Body Problem.</p>
             <p class="project-links"><a href="https://github.com/OB-David/ThreeBody-ZHAOGE" target="_blank" rel="noreferrer">Code</a></p>
           </div>
         </article>
@@ -149,7 +163,7 @@
           <div>
             <h3>Quantitative Research Intern</h3>
             <p class="institution">Shanghai Jiayicui Private Fund Management Co., Ltd.</p>
-            <p>Developed a Transformer–GNN–MLP model for convertible-bond return ranking and built a backtesting framework for empirical evaluation.</p>
+            <p>Designed a three-stage deep learning model for convertible-bond return ranking, combining a Transformer encoder, a GNN for neighborhood aggregation, and an MLP prediction head. Incorporated equity nodes and correlation edges based on bond returns, bond volatility, and underlying-stock returns. Built a backtesting framework and iteratively refined the model using empirical results.</p>
           </div>
         </div>
         <p class="entry-date">May–Aug. 2026</p>
@@ -158,13 +172,13 @@
     </section>
 
     <section id="school-experience" aria-labelledby="school-experience-title">
-      <h2 id="school-experience-title">School Experience</h2>
+      <h2 id="school-experience-title">Teaching &amp; Campus Service</h2>
 
       <div class="entry">
         <div class="entry-main">
           <h3>Teaching Assistant, Crypto Finance</h3>
           <p class="institution">Fudan University · English-taught graduate course</p>
-          <p>Designed a hands-on Sepolia assignment and supported in-class instruction and final-paper review.</p>
+          <p>Designed a hands-on Sepolia-based midterm assignment covering wallet setup, test-token acquisition, NFT minting, and marketplace sales. Guided students through these tasks, led in-class Q&amp;A, and assisted with final-paper reviews.</p>
         </div>
         <p class="entry-date">Sep.–Dec. 2026</p>
       </div>
@@ -173,14 +187,14 @@
         <div class="entry-main">
           <h3>Athletics Coordinator, School of Data Science</h3>
           <p class="institution">Fudan University</p>
-          <p>Coordinated the School's registration and participation in university-wide athletic events.</p>
+          <p>Coordinated registration and participation in university-wide athletic events for the School of Data Science.</p>
         </div>
         <p class="entry-date">Sep. 2024–Present</p>
       </div>
     </section>
 
     <section id="skills" aria-labelledby="skills-title">
-      <h2 id="skills-title">Skills</h2>
+      <h2 id="skills-title">Technical Skills</h2>
       <p><strong>Programming:</strong> Python (PyTorch, Polars), SQL, Solidity, C</p>
       <p><strong>Tools:</strong> Git, LaTeX</p>
     </section>
