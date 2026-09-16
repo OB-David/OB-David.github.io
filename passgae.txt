@@ -1,0 +1,101 @@
+Junming Ren
+School of Data Science
+Fudan University
+
+INTRODUCTION
+
+Final-year undergraduate at the School of Data Science, Fudan University, with interests in visual analytics, graph algorithms, blockchain systems, computational finance, and model interpretability. Research focused on analyzing computational processes and developing methods for interpreting and interacting with them.
+
+Conducted research on Ethereum transaction analysis at the FDU-VIS Lab and worked as a quantitative research intern on convertible-bond modeling. Studied at the School of Informatics, University of Edinburgh as an exchange student from September to December 2025.
+
+Email: jmren23@m.fudan.edu.cn
+Curriculum Vitae: resume_English/resume_English.pdf
+
+EDUCATION
+
+Fudan University
+School of Data Science · B.Sc. in Data Science and Big Data Technology
+Expected Jun. 2027
+GPA: 3.62/4.0 · Third Prize Scholarship of Fudan University · Honorable Mention, COMAP 2026
+
+University of Edinburgh
+Exchange Student, School of Informatics
+Sep.–Dec. 2025
+
+ACADEMIC RESEARCH
+
+Ethereum Arbitrage Transaction Detection
+First Author and Lead Researcher · FDU-VIS Lab · Feb. 2025–Sep. 2026
+Submitted to the IEEE PacificVis 2027 TVCG Track · Funded by FDUROP
+
+Reconstructed and simplified dynamic control-flow graphs from EVM execution traces while preserving cross-contract calls, asset-state updates, and exceptional terminations. Recovered ERC-20 and ETH transfers without relying on source code, ABIs, or event logs. Developed TraceWeaver, an interactive visual analytics system linking token-flow graphs, call trees, and control-flow graphs to trace arbitrage fund flows to individual contract calls and opcodes.
+
+Code: https://github.com/OB-David/evm-transaction-analyzer
+
+Minimizing Redundant Search Cost for Continuous Subgraph Matching
+Research Project · Feb. 2026–May 2026
+
+Implemented query-graph preprocessing to identify three types of reusable substructures in the search process. Visualized the algorithmic workflow and experimental results and contributed to manuscript writing.
+
+SELECTED PROJECTS
+
+SAE-Gate: Targeted Fine-Tuning of PTSD-Related Representations in LLMs
+
+Investigated PTSD-related representations in Qwen3-8B-Base using an open-source sparse autoencoder (SAE), and explored feature-level interventions for targeted fine-tuning.
+
+Code: https://github.com/OB-David/SAE-Gate
+
+ERC-8004 Ecosystem Visualization
+
+Analyzed and visualized the early ERC-8004 ecosystem to assess the emergence of an agent-to-agent trust network. Shared the findings for discussion on Ethereum Research.
+
+Community Discussion: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322
+
+NFT Music: Wikipedia Article
+
+Contributed to the Wikipedia article on NFT music.
+
+Article: https://en.wikipedia.org/wiki/NFT_music
+
+Vickey NFT Auction Contract
+
+Implemented and deployed a Solidity NFT auction contract on the Ethereum Sepolia testnet.
+
+Contract: https://sepolia.etherscan.io/address/0xac0f3f908c1115bdba543c2e22c8305a55621c3a
+
+ThreeBody-ZHAOGE: Multi-Agent Dialogue Game
+
+Developed a multi-agent dialogue game inspired by The Three-Body Problem.
+
+Code: https://github.com/OB-David/ThreeBody-ZHAOGE
+
+WORK EXPERIENCE
+
+Quantitative Research Intern
+Shanghai Jiayicui Private Fund Management Co., Ltd.
+May–Aug. 2026
+
+Designed a three-stage deep learning model for convertible-bond return ranking, combining a Transformer encoder, a GNN for neighborhood aggregation, and an MLP prediction head. Incorporated equity nodes and correlation edges based on bond returns, bond volatility, and underlying-stock returns. Built a backtesting framework and iteratively refined the model using empirical results.
+
+TEACHING & CAMPUS SERVICE
+
+Teaching Assistant, Crypto Finance
+Fudan University · English-taught graduate course
+Sep.–Dec. 2026
+
+Designed a hands-on Sepolia-based midterm assignment covering wallet setup, test-token acquisition, NFT minting, and marketplace sales. Guided students through these tasks, led in-class Q&A, and assisted with final-paper reviews.
+
+Athletics Coordinator, School of Data Science
+Fudan University
+Sep. 2024–Present
+
+Coordinated registration and participation in university-wide athletic events for the School of Data Science.
+
+TECHNICAL SKILLS
+
+Programming: Python (PyTorch, Polars), SQL, Solidity, C
+Tools: Git, LaTeX
+
+FOOTER
+
+Junming Ren · jmren23@m.fudan.edu.cn
