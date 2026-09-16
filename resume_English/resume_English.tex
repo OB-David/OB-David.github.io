@@ -1,0 +1,85 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{hyperref}
+
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Junming Ren}
+
+% {E-mail}{mobilephone}{homepage}
+\contactInfo{Shanghai, China}{(+86) 136-6622-4827}{jmren23@m.fudan.edu.cn}{}
+
+\section{Education}
+
+\datedsubsection{\textbf{Fudan University}}{Expected June 2027}
+\textit{School of Data Science \quad | \quad Bachelor of Data Science and Big Data Technology}
+\begin{itemize}
+  \item \textbf{Grade:} GPA: $3.62/4.0$, TOEFL: $5.0$
+  \item \textbf{Honors:} Third Prize Scholarship of Fudan University, Honorable Prize in COMAP 2026
+\end{itemize}
+
+\datedsubsection{\textbf{University of Edinburgh}}{Sept. 2025 -- Dec. 2025}
+\textit{School of Informatics \quad | \quad Exchange Student}
+
+\section{Academic Research}
+\subsection{\textbf{\href{https://github.com/OB-David/evm-transaction-analyzer}{Ethereum Arbitrage Transaction Detection}} \hfill Feb. 2025 -- Sep. 2026} 
+\textit{Submitted to the IEEE PacificVis 2027 TVCG Track; First Author and Lead Researcher}\\
+\textit{Conducted at the FDU-VIS Lab; Funded by FDUROP}
+\begin{itemize}[parsep=0.2ex]
+  \item Reconstructed dynamic CFGs along actual transaction execution paths; merged linear basic blocks and collapsed branching, looping, merging, and dispatch structures, reducing graph complexity while preserving cross-contract calls, asset-state updates, and exceptional terminations.
+  \item Recovered ERC-20 and ETH transfers from stack, memory, and storage reads/writes in EVM traces without relying on contract source code, ABIs, or event logs.
+  \item Developed TraceWeaver, an interactive visual analytics system that links token-flow graphs, call trees, and CFGs, enabling arbitrage fund flows to be traced to specific contract calls and opcodes.
+\end{itemize}
+\subsection{\textbf{Minimizing Redundant Search Cost for Continuous Subgraph Matching} \hfill Feb. 2026 -- May 2026}
+\begin{itemize}[parsep=0.2ex]
+  \item Implemented query graph preprocessing to identify three types of substructures reused in the search process.
+  \item Visualized the algorithmic workflow and experimental results and contributed to manuscript writing.
+\end{itemize}
+
+\section{Work Experience}
+\subsection{\textbf{Shanghai Jiayicui Private Fund Management Co., Ltd.} \hfill May 2026 -- Aug. 2026}
+\textit{Quantitative Research Intern}
+\begin{itemize}[parsep=0.2ex]
+  \item Designed a three-stage deep learning model for convertible-bond return rank prediction, integrating a Transformer encoder, a GNN for neighborhood aggregation, and an MLP prediction head
+  \item Incorporated equity nodes and constructed three types of correlation edges based on bond returns, bond volatility, and return correlations among the corresponding underlying stocks to enhance neighborhood aggregation.
+  \item Developed a backtesting framework and iteratively improved the model using empirical results.
+\end{itemize}
+
+\section{Selected Projects}
+\begin{itemize}[parsep=0.2ex]
+  \item \href{https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322}{ERC-8004 Ecosystem Visualization} \quad | \quad \href{https://en.wikipedia.org/wiki/NFT_music}{NFT Music: Wikipedia Article}
+  \item \href{https://sepolia.etherscan.io/address/0xac0f3f908c1115bdba543c2e22c8305a55621c3a}{Vickey NFT Auction Contract} \quad | \quad \href{https://github.com/OB-David/ThreeBody-ZHAOGE}{ThreeBody-ZHAOGE: Multi-Agent Dialogue Game}
+\end{itemize}
+
+\section{Teaching \& Campus Service}
+\subsection{
+  \textbf{Teaching Assistant, Crypto Finance (English-Taught Graduate Course)}
+  \hfill Sep. 2026 -- Dec. 2026
+}
+\begin{itemize}[parsep=0.2ex]
+  \item Designed a hands-on Sepolia-based midterm assignment and guided students through wallet setup, test-token acquisition, NFT minting, and marketplace sales; led in-class Q\&A and assisted with final-paper reviews.
+\end{itemize}
+
+\subsection{
+  \textbf{Athletics Coordinator, School of Data Science}
+  \hfill Sep. 2024 -- Present
+}
+\begin{itemize}[parsep=0.2ex]
+  \item Coordinated the School's registration and participation in university-wide athletic events.
+\end{itemize}
+
+\section{Technical Skills}
+\textbf{Programming:} Python (PyTorch, Polars), SQL, Solidity, C
+\quad | \quad
+\textbf{Tools:} Git, \LaTeX
+
+\end{document}

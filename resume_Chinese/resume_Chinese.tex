@@ -1,0 +1,88 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % 使用外部中文字体（./fonts/zh_CN-Adobe/）
+%\usepackage{zh_CN-Adobefonts_internal} % 使用系统中文字体
+\usepackage{linespacing_fix} % 消除章节前的额外间距
+\usepackage{cite}
+\usepackage{hyperref}
+
+\begin{document}
+\pagenumbering{gobble} % 不显示页码
+
+\name{任俊铭}
+
+% {地址}{电话}{邮箱}{个人主页}
+\contactInfo{(+86) 136-6622-4827}{jmren23@m.fudan.edu.cn}{}{}
+
+\section{教育经历}
+
+\datedsubsection{\textbf{复旦大学}}{2027年6月毕业}
+\textit{大数据学院 \quad | \quad 数据科学与大数据技术本科 \quad | \quad GPA：$3.62/4.0$}\\
+\textit{\textbf{主要课程：} 最优化方法，神经网络与深度学习，自然语言处理，因果推断，数理统计，高等线性代数}
+
+\datedsubsection{\textbf{爱丁堡大学}}{2025年9月 -- 2025年12月}
+\textit{信息学院 \quad | \quad 交换生}\\
+\textit{\textbf{主要课程：} 区块链与分布式账本，运筹学，计算理论}
+
+\section{科研经历}
+\datedsubsection{\textbf{\href{https://github.com/OB-David/evm-transaction-analyzer}{以太坊套利交易检测}}}{2025年2月 -- 2026年9月}
+\textit{投稿至 IEEE PacificVis TVCG Track 2027；第一作者、研究负责人}\\
+\textit{复旦大学可视分析与智能决策实验室（FDU-VIS）；获“复芏计划”（FDUROP）研究资助并已结项}
+\begin{itemize}[parsep=0.2ex]
+    \item 沿交易的实际执行轨迹重建动态 CFG；合并线性基本块，并识别、折叠分支、循环、汇合与分发等局部结构，在保留跨合约调用、资产状态更新和异常终止等关键语义的同时降低图复杂度。
+    \item 从 EVM 执行轨迹的操作码、栈、内存与存储交互中恢复 ERC-20/ETH 转账，不依赖合约源码、ABI 或事件日志。
+    \item 开发交互式可视分析系统 TraceWeaver，将资产流、合约调用与操作码执行组织为联动的代币流图、调用树和 CFG，使套利资金环路可追溯到具体合约调用与执行指令。
+\end{itemize}
+
+
+\section{实习经历}
+\datedsubsection{\textbf{上海嘉懿萃私募基金管理有限公司}}{2026年5月 -- 2026年7月}
+\textit{量化研究实习生}
+\begin{itemize}[parsep=0.2ex]
+  \item 搭建“多因子编码--多关系 GNN 邻居聚合--MLP 排序预测”的可转债收益率截面排序模型；系统测试转债收益率、波动率、正股收益率相关性及企业规模等关系与组合，评估其增量信息。
+  \item 完善训练与评估体系，引入邻居关系 Dropout、特征 Dropout、早停及超参数优化，并融合不同邻居关系模型的预测得分，测试集 RankIC 达到 0.095。
+  \item 以 Polars 与 GPU 重构大规模因子处理、矩阵计算及图聚合流程，降低数据处理与 I/O 开销；
+\end{itemize}
+
+\section{项目经历}
+
+\datedsubsection{\textbf{{ERC-8004 智能体身份与信任生态系统可视分析}}}{2026年6月}
+\textit{独立开发}
+\begin{itemize}[parsep=0.2ex]
+  \item 开发 ERC-8004 生态交互式可视分析系统，解析以太坊主网身份注册、信誉反馈等链上事件，支持用户探索早期智能体信任网络的结构与演化过程。
+  \item 运用因果推断方法分析智能体链上活跃度与信誉评分的正向关系，并结合生态统计识别出批量注册占位及注册后无交互的“僵尸智能体”等主要现象。
+  \item 在 \href{https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322}{Ethereum Research} 发布早期生态分析，与社区成员讨论 ERC-8004 的架构潜力与改进方向。
+\end{itemize}
+
+\section{代表项目}
+\href{https://en.wikipedia.org/wiki/NFT_music}{{NFT音乐：维基百科词条}}， \href{https://sepolia.etherscan.io/address/0xac0f3f908c1115bdba543c2e22c8305a55621c3a}{{Vickey 二价拍卖合约链上部署与交互}}， \href{https://github.com/OB-David/ThreeBody-ZHAOGE}{{三体--朝歌：多智能体对话游戏}}，\href{https://github.com/OB-David/SAE-Gate}{SAE-Gate:基于SAE的大模型PTSD表征微调}
+
+\section{活动与奖项}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.2ex]
+  \item 美国大学生数学建模竞赛\textbf{H奖}，2026年5月
+  \item 全国大学生数学建模竞赛\textbf{上海赛区二等奖}，2024年9月
+  \item 复旦大学优秀学生奖学金\textbf{三等奖}，2025年10月
+  \item 复旦大学排球院系杯\textbf{第二名}，2023年10月
+\end{itemize}
+
+\section{专业技能}
+\begin{itemize}[parsep=0.2ex]
+  \item \textbf{编程：} Python（NumPy、PyTorch、Pandas、Matplotlib、NetworkX）、C、Solidity、SQL、Matlab
+  \item \textbf{工具：} Git、Conda、\LaTeX、Graphviz（DOT）、Visio、Codex
+\end{itemize}
+
+
+
+\end{document}
+
+
+\datedsubsection{\textbf{连续子图匹配的冗余查询开销最小化}}{2026年2月 -- 2026年5月}
+\textit{共同第二作者}
+\begin{itemize}[parsep=0.2ex]
+  \item 实现查询图预处理流程，识别搜索过程中可重复利用的同构对、自同构、割点与块三类子结构。
+  \item 可视化算法流程与实验结果，并参与论文撰写。
+\end{itemize}
