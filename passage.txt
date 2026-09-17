@@ -81,7 +81,7 @@ Teaching Assistant, Crypto Finance
 Fudan University · School of Management · English-taught graduate course
 Sep.–Dec. 2026
 
-Designed a hands-on Sepolia-based midterm assignment covering wallet setup, test-token acquisition, NFT minting, and marketplace sales. Guided students through these tasks, led in-class Q&A, and assisted with final-paper reviews.
+Designed and guided a hands-on Sepolia assignment on NFT minting and sales; led class Q&A and assisted with final-paper reviews.
 
 FDU Buddy Program
 Fudan University · International Cooperation and Exchange Office
