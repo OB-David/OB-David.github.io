@@ -12,3 +12,8 @@ fonts/
 /resume_Chinese/
 /resume_English/*
 !/resume_English/resume_English.pdf
+
+# Local writing notes and repository documentation are not published.
+/passage.txt
+/passgae.txt
+/README.md
