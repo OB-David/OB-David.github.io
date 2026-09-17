@@ -78,7 +78,7 @@ Designed a three-stage deep learning model for convertible-bond return ranking, 
 TEACHING & CAMPUS SERVICE
 
 Teaching Assistant, Crypto Finance
-Fudan University · School of Management
+Fudan University · School of Management · English-taught graduate course
 Sep.–Dec. 2026
 
 Designed a hands-on Sepolia-based midterm assignment covering wallet setup, test-token acquisition, NFT minting, and marketplace sales. Guided students through these tasks, led in-class Q&A, and assisted with final-paper reviews.
