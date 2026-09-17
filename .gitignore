@@ -7,3 +7,8 @@
 *.xdv
 .DS_Store
 fonts/
+
+# Keep local resume sources out of the website repository.
+/resume_Chinese/
+/resume_English/*
+!/resume_English/resume_English.pdf
