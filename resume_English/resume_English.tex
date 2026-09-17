@@ -46,12 +46,12 @@
 \end{itemize}
 
 \section{Work Experience}
-\subsection{\textbf{Shanghai Jiayicui Private Fund Management Co., Ltd.} \hfill May 2026 -- Aug. 2026}
+\subsection{\textbf{Shanghai Jiayicui Private Fund Management Co., Ltd.} \hfill May 2026 -- Jul. 2026}
 \textit{Quantitative Research Intern}
 \begin{itemize}[parsep=0.2ex]
-  \item Designed a three-stage deep learning model for convertible-bond return rank prediction, integrating a Transformer encoder, a GNN for neighborhood aggregation, and an MLP prediction head
-  \item Incorporated equity nodes and constructed three types of correlation edges based on bond returns, bond volatility, and return correlations among the corresponding underlying stocks to enhance neighborhood aggregation.
-  \item Developed a backtesting framework and iteratively improved the model using empirical results.
+  \item Built a cross-sectional convertible-bond return ranking model with multi-factor encoding, multi-relational GNN neighborhood aggregation, and an MLP ranking head; evaluated the incremental information from bond-return, volatility, and underlying-stock-return correlations, firm-size relationships, and their combinations.
+  \item Improved training and evaluation with neighbor-relation dropout, feature dropout, early stopping, and hyperparameter optimization; ensembled prediction scores from models using different neighbor relations, achieving a test-set RankIC of 0.095.
+  \item Reimplemented large-scale factor processing, matrix computation, and graph aggregation using Polars and GPU acceleration to reduce data-processing and I/O overhead.
 \end{itemize}
 
 \section{Selected Projects}
