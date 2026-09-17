@@ -78,19 +78,19 @@ Designed a three-stage deep learning model for convertible-bond return ranking, 
 TEACHING & CAMPUS SERVICE
 
 Teaching Assistant, Crypto Finance
-Fudan University · English-taught graduate course
+Fudan University · School of Management
 Sep.–Dec. 2026
 
 Designed a hands-on Sepolia-based midterm assignment covering wallet setup, test-token acquisition, NFT minting, and marketplace sales. Guided students through these tasks, led in-class Q&A, and assisted with final-paper reviews.
 
 FDU Buddy Program
-Fudan University
+Fudan University · International Cooperation and Exchange Office
 Aug.–Dec. 2026
 
 Helped incoming exchange students adapt to academic and campus life at Fudan and organized group activities.
 
 Athletics Coordinator, School of Data Science
-Fudan University
+Fudan University · School of Data Science
 Sep. 2024–Present
 
 Coordinated registration and participation in university-wide athletic events for the School of Data Science.
