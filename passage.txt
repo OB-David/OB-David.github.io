@@ -4,12 +4,10 @@ Fudan University
 
 INTRODUCTION
 
-Final-year undergraduate at the School of Data Science, Fudan University, with interests in visual analytics, graph algorithms, blockchain systems, computational finance, and model interpretability. Research focused on analyzing computational processes and developing methods for interpreting and interacting with them.
-
-Conducted research on Ethereum transaction analysis at the FDU-VIS Lab and worked as a quantitative research intern on convertible-bond modeling. Studied at the School of Informatics, University of Edinburgh as an exchange student from September to December 2025.
+Final-year undergraduate at the School of Data Science, Fudan University. My research interests lie at the intersection of blockchain, artificial intelligence, and autonomous agents. I am particularly interested in emerging digital systems involving financial behavior and multi-agent collaboration, as well as the identity, trust, incentive, and security challenges that arise within them. My work explores how data analysis and machine learning can be used to understand interactions and behaviors in these complex systems.
 
 Email: jmren23@m.fudan.edu.cn
-Curriculum Vitae: resume_English/resume_English.pdf
+CV: resume_English/resume_English.pdf
 
 EDUCATION
 
@@ -24,24 +22,24 @@ Sep.–Dec. 2025
 
 ACADEMIC RESEARCH
 
-Ethereum Arbitrage Transaction Detection
+Ethereum Arbitrage Transaction Investigation
 First Author and Lead Researcher · FDU-VIS Lab · Feb. 2025–Sep. 2026
 Submitted to the IEEE PacificVis 2027 TVCG Track · Funded by FDUROP
 
-Reconstructed and simplified dynamic control-flow graphs from EVM execution traces while preserving cross-contract calls, asset-state updates, and exceptional terminations. Recovered ERC-20 and ETH transfers without relying on source code, ABIs, or event logs. Developed TraceWeaver, an interactive visual analytics system linking token-flow graphs, call trees, and control-flow graphs to trace arbitrage fund flows to individual contract calls and opcodes.
+Reconstructed and simplified dynamic control-flow graphs from EVM execution traces while preserving key execution semantics. Recovered ERC-20 and ETH transfers without relying on source code, ABIs, or event logs. Developed TraceWeaver, an interactive visual analytics system linking token-flow graphs, call trees, and control-flow graphs to support arbitrage analysis from token-level economic outcomes, through contract-call strategy realization, to opcode-level execution.
 
 Code: https://github.com/OB-David/evm-transaction-analyzer
 
 Minimizing Redundant Search Cost for Continuous Subgraph Matching
 Research Project · Feb. 2026–May 2026
 
-Implemented query-graph preprocessing to identify three types of reusable substructures in the search process. Visualized the algorithmic workflow and experimental results and contributed to manuscript writing.
+Investigated structural redundancy in query graphs and identified three forms of reusable structure: isomorphic substructure clusters, automorphic substructures, and articulation points and blocks. Incorporated these structures into query-graph preprocessing to reduce redundant exploration during search and improve overall search efficiency.
 
 SELECTED PROJECTS
 
 SAE-Gate: Targeted Fine-Tuning of PTSD-Related Representations in LLMs
 
-Investigated PTSD-related representations in Qwen3-8B-Base using an open-source sparse autoencoder (SAE), and explored feature-level interventions for targeted fine-tuning.
+Investigated PTSD-related representations in Qwen3-8B-Base using its open-source sparse autoencoder (SAE), and explored feature-level interventions for targeted fine-tuning.
 
 Code: https://github.com/OB-David/SAE-Gate
 
@@ -53,19 +51,19 @@ Community Discussion: https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agen
 
 NFT Music: Wikipedia Article
 
-Contributed to the Wikipedia article on NFT music.
+Contributed to the Wikipedia article on NFT music, providing its background and its social impact.
 
 Article: https://en.wikipedia.org/wiki/NFT_music
 
 Vickey NFT Auction Contract
 
-Implemented and deployed a Solidity NFT auction contract on the Ethereum Sepolia testnet.
+Developed, deployed, and tested a Solidity NFT Vickrey-auction contract on the Ethereum Sepolia testnet.
 
 Contract: https://sepolia.etherscan.io/address/0xac0f3f908c1115bdba543c2e22c8305a55621c3a
 
 ThreeBody-ZHAOGE: Multi-Agent Dialogue Game
 
-Developed a multi-agent dialogue game inspired by The Three-Body Problem.
+Developed a multi-agent dialogue game inspired by The Three-Body Problem using LangGraph.
 
 Code: https://github.com/OB-David/ThreeBody-ZHAOGE
 

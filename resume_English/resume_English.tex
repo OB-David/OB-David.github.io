@@ -16,7 +16,7 @@
 \name{Junming Ren}
 
 % {E-mail}{mobilephone}{homepage}
-\contactInfo{Shanghai, China}{(+86) 136-6622-4827}{jmren23@m.fudan.edu.cn}{}
+\contactInfo{Shanghai, China}{jmren23@m.fudan.edu.cn}{\href{https://ob-david.github.io/}{Personal website}}{}
 
 \section{Education}
 
@@ -35,9 +35,9 @@
 \textit{Submitted to the IEEE PacificVis 2027 TVCG Track; First Author and Lead Researcher}\\
 \textit{Conducted at the FDU-VIS Lab; Funded by FDUROP}
 \begin{itemize}[parsep=0.2ex]
-  \item Reconstructed dynamic CFGs along actual transaction execution paths; merged linear basic blocks and collapsed branching, looping, merging, and dispatch structures, reducing graph complexity while preserving cross-contract calls, asset-state updates, and exceptional terminations.
-  \item Recovered ERC-20 and ETH transfers from stack, memory, and storage reads/writes in EVM traces without relying on contract source code, ABIs, or event logs.
-  \item Developed TraceWeaver, an interactive visual analytics system that links token-flow graphs, call trees, and CFGs, enabling arbitrage fund flows to be traced to specific contract calls and opcodes.
+  \item Reconstructed dynamic control-flow graphs along actual transaction execution paths and applied structure-aware folding to reduce graph complexity while preserving key execution semantics.
+  \item Recovered ERC-20 and ETH transfers directly from opcode-level EVM execution traces without relying on contract source code, ABIs, or event logs.
+  \item Developed TraceWeaver, an interactive visual analytics system that links token-flow graphs, call trees, and control-flow graphs, enabling arbitrage fund flows to be traced to specific contract calls and opcodes.
 \end{itemize}
 \subsection{\textbf{Minimizing Redundant Search Cost for Continuous Subgraph Matching} \hfill Feb. 2026 -- May 2026}
 \begin{itemize}[parsep=0.2ex]
