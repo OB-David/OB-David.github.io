@@ -10,8 +10,12 @@ fonts/
 
 # Keep local resume sources out of the website repository.
 /resume_Chinese/
-/resume_English/*
-!/resume_English/resume_English.pdf
+/resume_English/
+/resume_for_application/*
+!/resume_for_application/resume_for_application.pdf
+
+# Local PDF previews and review artifacts.
+/tmp/
 
 # Local writing notes and repository documentation are not published.
 /passage.txt
